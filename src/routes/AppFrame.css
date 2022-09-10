@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo  {
+  height: 80px;
+}
+
+.Title {
+  margin-left: 20px;
+  font-size: 20px;
+}
