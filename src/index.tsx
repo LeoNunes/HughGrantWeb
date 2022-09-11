@@ -7,6 +7,7 @@ import './index.css';
 import AppFrame from './routes/AppFrame';
 import Home from './routes/Home';
 import SpeedTest from './routes/SpeedTest';
+import Reader from './routes/Reader';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -20,6 +21,7 @@ root.render(
           <Route path='/' element={<AppFrame/>}>
             <Route index element={<Home />} />
             <Route path='speed-test' element={<SpeedTest/>}/>
+            <Route path='reader' element={<Reader/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
