@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import AppFrame from './routes/AppFrame';
 import Home from './routes/Home';
-import SpeedTest from './routes/SpeedTest';
+import SpeedTest from './routes/ReadingTimer';
 import Reader from './routes/Reader';
 import reportWebVitals from './reportWebVitals';
 
