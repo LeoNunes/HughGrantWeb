@@ -9,6 +9,7 @@ import Home from './routes/Home';
 import SpeedTest from './routes/ReadingTimer';
 import Reader from './routes/Reader';
 import Text from './routes/Text';
+import Sound from './routes/Sound';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -24,6 +25,7 @@ root.render(
             <Route path='speed-test' element={<SpeedTest/>}/>
             <Route path='reader' element={<Reader/>}/>
             <Route path='text' element={<Text/>}/>
+            <Route path='sound' element={<Sound/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -14,7 +14,6 @@ export default () => {
     }
 
     const lines = data.split('\n');
-    console.log(data);
 
     return (
         <div>
